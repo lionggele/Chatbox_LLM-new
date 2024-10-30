@@ -1,0 +1,72 @@
+[
+  {
+    "id": "572faf74b2c2fd1400568348",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Where were interviews held while the parliament was in its temporary building?",
+    "correct_answer": "the courtyard",
+    "llm_response": "The interviews were held in the **courtyard adjoining the Assembly Hall**, which is part of the School of Divinity of the University of Edinburgh. \n"
+  },
+  {
+    "id": "5727502f708984140094dc0b",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Cost overruns with government projects have occurred when the contractor did what?",
+    "correct_answer": "identified change orders or project changes that increased costs",
+    "llm_response": "The passage states that cost overruns with government projects have occurred when the contractor **identified change orders or project changes that increased costs, which are not subject to competition from other firms**. \n\nHere's why this leads to cost overruns:\n\n* **Lack of Competition:** Once a contractor is awarded a government project, there's often no competitive bidding for subsequent changes. This means the contractor can potentially inflate the cost of these changes without facing pressure from other bidders.\n* **Opportunity for Abuse:**  The contractor has an incentive to propose changes that increase their profits, even if those changes are not strictly necessary or could be done more cost-effectively.\n* **Limited Oversight:**  Government oversight of project changes can be complex and may"
+  },
+  {
+    "id": "5728e8212ca10214002daa70",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Why do some people purposely resist officers of the law?",
+    "correct_answer": "civil disobedience",
+    "llm_response": "There are several reasons why people might resist officers of the law, even when their actions are considered \"civil disobedience\":\n\n**1. Principled Resistance:**\n\n* **Disagreement with the Law:** Some individuals believe the law they are breaking is unjust or immoral, and they actively resist as a form of protest. They see their actions as a moral imperative, even if it means facing legal consequences.\n* **Challenging Authority:** Civil disobedience can be a way to challenge the authority of the state and force a dialogue about the legitimacy of the law. This resistance is often motivated by a belief in the power of nonviolent action to bring about social change.\n\n**2. Emotional and Psychological Factors:**\n\n* **Fear and Anxiety:** The situation"
+  },
+  {
+    "id": "5737a25ac3c5551400e51f53",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "What are associated with normal forces?",
+    "correct_answer": "matrix diagonals of the tensor)",
+    "llm_response": "The passage you provided describes the stress tensor, a tool used in physics and engineering to represent the internal forces within a material.  Here's how normal forces relate to the stress tensor:\n\n**Normal Forces and the Stress Tensor:**\n\n* **Normal forces** are forces that act perpendicular to a surface.  Think of a book sitting on a table \u2013 the table exerts an upward normal force on the book.\n* **Stress tensor** is a mathematical representation of the forces acting on a material. It has components that represent both normal forces (acting perpendicular to a surface) and shear forces (acting parallel to a surface).\n* **Diagonal elements** of the stress tensor represent the **normal stresses**. These are directly related to the normal forces"
+  },
+  {
+    "id": "572650325951b619008f6fab",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Who backed policies that have solutions that sound good but have poor prospects?",
+    "correct_answer": "congresses and presidents",
+    "llm_response": "The passage states that **congresses and presidents** have repeatedly backed policies that promise solutions that are politically expedient, but whose prospects are doubtful. \n\nThe passage specifically criticizes:\n\n* **Crisis-mentality thinking:**  This refers to the tendency to focus on immediate solutions without considering long-term consequences.\n* **Expensive quick fixes:** These are solutions that address the immediate problem but may not be sustainable or cost-effective in the long run.\n* **Single-shot solutions:** These are solutions that address one aspect of the problem but ignore other important factors.\n\nThe passage argues that these policies, while politically expedient, ignore market and technology realities and fail to provide stable rules that support research and innovation. \n\nTherefore, the"
+  },
+  {
+    "id": "571cac5d5efbb31900334dd4",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Before the formation of which planet, did Sol lose oxygen 16?",
+    "correct_answer": "Earth",
+    "llm_response": "The passage states that the Sun has a higher proportion of oxygen-16 than Earth.  This implies that **oxygen-16 was depleted from the protoplanetary disk before the Earth formed**. \n\nTherefore, the answer to your question is: **Before the formation of the Earth.** \n"
+  },
+  {
+    "id": "572943ab1d04691400779219",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "Who was the chairman of the House Committee on Energy and Commerce?",
+    "correct_answer": "Rep. Joe Barton",
+    "llm_response": "The chairman of the House Committee on Energy and Commerce on June 23, 2005, was **Rep. Joe Barton**. \n"
+  },
+  {
+    "id": "570d32e4fed7b91900d45d05",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "What government set standards do all schools have to meet?",
+    "correct_answer": "curriculum standards",
+    "llm_response": "The passage states that **all schools in Victoria must comply with government-set curriculum standards.** \n\nIt doesn't specify what those standards are, but it implies that they apply to both public and private schools, regardless of their funding source or religious affiliation. \n"
+  },
+  {
+    "id": "5733f410d058e614000b6663",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "What was the goal of Braddock's expedition?",
+    "correct_answer": "dislodge the French",
+    "llm_response": "The goal of Braddock's expedition was to **dislodge the French from their forts and settlements in the Ohio Valley**. \n\nThe British believed that the French were encroaching on British territory in the Ohio Valley, and they aimed to:\n\n* **Secure control of the Ohio River:** This was a vital waterway for trade and westward expansion.\n* **Prevent French expansion:** The British wanted to stop the French from establishing a strong presence in the region and potentially threatening British colonies.\n* **Establish British dominance:**  The expedition was intended to demonstrate British military superiority and assert their claim to the territory. \n\nUltimately, Braddock's expedition failed to achieve its goals, ending in a disastrous defeat at the Battle of the Mononga"
+  },
+  {
+    "id": "57296f293f37b319004783a7",
+    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
+    "question": "As of January 2016 how many digits does the largest known prime consist of?",
+    "correct_answer": "22,338,618",
+    "llm_response": "The context states that as of January 2016, the largest known prime number has **22,338,618 decimal digits**. \n"
+  }
+]

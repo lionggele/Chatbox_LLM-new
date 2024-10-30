@@ -1,0 +1,84 @@
+{
+  "sampled_data": [
+    {
+      "id": "572faf74b2c2fd1400568348",
+      "title": "Scottish_Parliament",
+      "context": "Whilst the permanent building at Holyrood was being constructed, the Parliament's temporary home was the General Assembly Hall of the Church of Scotland on the Royal Mile in Edinburgh. Official photographs and television interviews were held in the courtyard adjoining the Assembly Hall, which is part of the School of Divinity of the University of Edinburgh. This building was vacated twice to allow for the meeting of the Church's General Assembly. In May 2000, the Parliament was temporarily relocated to the former Strathclyde Regional Council debating chamber in Glasgow, and to the University of Aberdeen in May 2002.",
+      "question": "Where were interviews held while the parliament was in its temporary building?",
+      "answer": "the courtyard",
+      "answer_start": 245
+    },
+    {
+      "id": "5727502f708984140094dc0b",
+      "title": "Construction",
+      "context": "Mortgage bankers, accountants, and cost engineers are likely participants in creating an overall plan for the financial management of the building construction project. The presence of the mortgage banker is highly likely, even in relatively small projects since the owner's equity in the property is the most obvious source of funding for a building project. Accountants act to study the expected monetary flow over the life of the project and to monitor the payouts throughout the process. Cost engineers and estimators apply expertise to relate the work and materials involved to a proper valuation. Cost overruns with government projects have occurred when the contractor identified change orders or project changes that increased costs, which are not subject to competition from other firms as they have already been eliminated from consideration after the initial bid.",
+      "question": "Cost overruns with government projects have occurred when the contractor did what?",
+      "answer": "identified change orders or project changes that increased costs",
+      "answer_start": 676
+    },
+    {
+      "id": "5728e8212ca10214002daa70",
+      "title": "Civil_disobedience",
+      "context": "Many of the same decisions and principles that apply in other criminal investigations and arrests arise also in civil disobedience cases. For example, the suspect may need to decide whether or not to grant a consent search of his property, and whether or not to talk to police officers. It is generally agreed within the legal community, and is often believed within the activist community, that a suspect's talking to criminal investigators can serve no useful purpose, and may be harmful. However, some civil disobedients have nonetheless found it hard to resist responding to investigators' questions, sometimes due to a lack of understanding of the legal ramifications, or due to a fear of seeming rude. Also, some civil disobedients seek to use the arrest as an opportunity to make an impression on the officers. Thoreau wrote, \"My civil neighbor, the tax-gatherer, is the very man I have to deal with--for it is, after all, with men and not with parchment that I quarrel--and he has voluntarily chosen to be an agent of the government. How shall he ever know well that he is and does as an officer of the government, or as a man, until he is obliged to consider whether he will treat me, his neighbor, for whom he has respect, as a neighbor and well-disposed man, or as a maniac and disturber of the peace, and see if he can get over this obstruction to his neighborliness without a ruder and more impetuous thought or speech corresponding with his action.\"",
+      "question": "Why do some people purposely resist officers of the law?",
+      "answer": "civil disobedience",
+      "answer_start": 112
+    },
+    {
+      "id": "5737a25ac3c5551400e51f53",
+      "title": "Force",
+      "context": "where  is the relevant cross-sectional area for the volume for which the stress-tensor is being calculated. This formalism includes pressure terms associated with forces that act normal to the cross-sectional area (the matrix diagonals of the tensor) as well as shear terms associated with forces that act parallel to the cross-sectional area (the off-diagonal elements). The stress tensor accounts for forces that cause all strains (deformations) including also tensile stresses and compressions.:133\u2013134:38-1\u201338-11",
+      "question": "What are associated with normal forces?",
+      "answer": "matrix diagonals of the tensor)",
+      "answer_start": 219
+    },
+    {
+      "id": "572650325951b619008f6fab",
+      "title": "1973_oil_crisis",
+      "context": "The energy crisis led to greater interest in renewable energy, nuclear power and domestic fossil fuels. There is criticism that American energy policies since the crisis have been dominated by crisis-mentality thinking, promoting expensive quick fixes and single-shot solutions that ignore market and technology realities. Instead of providing stable rules that support basic research while leaving plenty of scope for entrepreneurship and innovation, congresses and presidents have repeatedly backed policies which promise solutions that are politically expedient, but whose prospects are doubtful.",
+      "question": "Who backed policies that have solutions that sound good but have poor prospects?",
+      "answer": "congresses and presidents",
+      "answer_start": 452
+    },
+    {
+      "id": "571cac5d5efbb31900334dd4",
+      "title": "Oxygen",
+      "context": "Planetary geologists have measured different abundances of oxygen isotopes in samples from the Earth, the Moon, Mars, and meteorites, but were long unable to obtain reference values for the isotope ratios in the Sun, believed to be the same as those of the primordial solar nebula. Analysis of a silicon wafer exposed to the solar wind in space and returned by the crashed Genesis spacecraft has shown that the Sun has a higher proportion of oxygen-16 than does the Earth. The measurement implies that an unknown process depleted oxygen-16 from the Sun's disk of protoplanetary material prior to the coalescence of dust grains that formed the Earth.",
+      "question": "Before the formation of which planet, did Sol lose oxygen 16?",
+      "answer": "Earth",
+      "answer_start": 643
+    },
+    {
+      "id": "572943ab1d04691400779219",
+      "title": "Intergovernmental_Panel_on_Climate_Change",
+      "context": "On 23 June 2005, Rep. Joe Barton, chairman of the House Committee on Energy and Commerce wrote joint letters with Ed Whitfield, Chairman of the Subcommittee on Oversight and Investigations demanding full records on climate research, as well as personal information about their finances and careers, from Mann, Bradley and Hughes. Sherwood Boehlert, chairman of the House Science Committee, said this was a \"misguided and illegitimate investigation\" apparently aimed at intimidating scientists, and at his request the U.S. National Academy of Sciences arranged for its National Research Council to set up a special investigation. The National Research Council's report agreed that there were some statistical failings, but these had little effect on the graph, which was generally correct. In a 2006 letter to Nature, Mann, Bradley, and Hughes pointed out that their original article had said that \"more widespread high-resolution data are needed before more confident conclusions can be reached\" and that the uncertainties were \"the point of the article\".",
+      "question": "Who was the chairman of the House Committee on Energy and Commerce?",
+      "answer": "Rep. Joe Barton",
+      "answer_start": 17
+    },
+    {
+      "id": "570d32e4fed7b91900d45d05",
+      "title": "Victoria_(Australia)",
+      "context": "Victorian schools are either publicly or privately funded. Public schools, also known as state or government schools, are funded and run directly by the Victoria Department of Education . Students do not pay tuition fees, but some extra costs are levied. Private fee-paying schools include parish schools run by the Roman Catholic Church and independent schools similar to British public schools. Independent schools are usually affiliated with Protestant churches. Victoria also has several private Jewish and Islamic primary and secondary schools. Private schools also receive some public funding. All schools must comply with government-set curriculum standards. In addition, Victoria has four government selective schools, Melbourne High School for boys, MacRobertson Girls' High School for girls, the coeducational schools John Monash Science School, Nossal High School and Suzanne Cory High School, and The Victorian College of the Arts Secondary School. Students at these schools are exclusively admitted on the basis of an academic selective entry test.",
+      "question": "What government set standards do all schools have to meet?",
+      "answer": "curriculum standards",
+      "answer_start": 644
+    },
+    {
+      "id": "5733f410d058e614000b6663",
+      "title": "French_and_Indian_War",
+      "context": "News of the two battles reached England in August. After several months of negotiations, the government of the Duke of Newcastle decided to send an army expedition the following year to dislodge the French. They chose Major General Edward Braddock to lead the expedition. Word of the British military plans leaked to France well before Braddock's departure for North America. In response, King Louis XV dispatched six regiments to New France under the command of Baron Dieskau in 1755. The British, intending to blockade French ports, sent out their fleet in February 1755, but the French fleet had already sailed. Admiral Edward Hawke detached a fast squadron to North America in an attempt to intercept the French.",
+      "question": "What was the goal of Braddock's expedition?",
+      "answer": "dislodge the French",
+      "answer_start": 186
+    },
+    {
+      "id": "57296f293f37b319004783a7",
+      "title": "Prime_number",
+      "context": "The property of being prime (or not) is called primality. A simple but slow method of verifying the primality of a given number n is known as trial division. It consists of testing whether n is a multiple of any integer between 2 and . Algorithms much more efficient than trial division have been devised to test the primality of large numbers. These include the Miller\u2013Rabin primality test, which is fast but has a small probability of error, and the AKS primality test, which always produces the correct answer in polynomial time but is too slow to be practical. Particularly fast methods are available for numbers of special forms, such as Mersenne numbers. As of January 2016[update], the largest known prime number has 22,338,618 decimal digits.",
+      "question": "As of January 2016 how many digits does the largest known prime consist of?",
+      "answer": "22,338,618",
+      "answer_start": 724
+    }
+  ]
+}

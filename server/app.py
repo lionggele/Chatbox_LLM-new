@@ -1,9 +1,11 @@
+import os
 from flask import Flask
 from flask_cors import CORS
 from dotenv import load_dotenv
 from utils.db_postgresql import db
 from api.routes import api_blueprint
 from flask_migrate import Migrate
+from urllib.parse import quote_plus
 
 load_dotenv('.flaskenv')
 
@@ -13,7 +15,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 app.register_blueprint(api_blueprint, url_prefix='/api')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Phil2:12-16@localhost/llm_evaluation'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI') 
 
 db.init_app(app)
 migrate = Migrate(app, db)

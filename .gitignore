@@ -32,7 +32,6 @@ yarn-error.log*
 .aws/session-cache/
 
 # AWS Secrets Manager related
-*.json
 *.pem
 .aws/
 credentials/
