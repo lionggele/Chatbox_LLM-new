@@ -37,12 +37,14 @@ def query_llms():
             responses[model_name] = f"Error: Model '{model_name}' not found."
     return jsonify(responses)
 
+
 @api_blueprint.route('/process_dataset', methods=['POST'])
 def process_dataset():
     data = request.get_json()
     selected_model = data.get("selectedModel")
     selected_dataset = data.get("selectedDataset")
     selected_sampling = data.get("selectedSampling")
+    
     if not selected_model:
         app.logger.error("No model selected.")
         return jsonify({"error": "No model selected."}), 400
@@ -52,6 +54,7 @@ def process_dataset():
     if not selected_sampling:
         app.logger.error("No sampling size selected.")
         return jsonify({"error": "No sampling size selected."}), 400
+
     try:
         # Generate an experiment ID
         timestamp = dt.now().strftime("%Y%m%d_%H%M%S")
@@ -65,8 +68,8 @@ def process_dataset():
             qa_pairs = []
             for qa in sampled_data:
                 try:
-                    correct_answers = qa.get('correct_answers', [])
-                    incorrect_answers = qa.get('incorrect_answers', [])
+                    correct_answers = qa.get('correct_answers', []) 
+                    incorrect_answers = qa.get('incorrect_answers', []) 
                 except ValueError as e:
                     app.logger.error(f"Error converting scores for QA ID {qa.get('id')}: {e}")
                     return jsonify({"error": f"Invalid score values for QA ID {qa.get('id')}. {e}"}), 400
@@ -201,7 +204,7 @@ def get_evaluation_results():
 @api_blueprint.route('/get_model_averages', methods=['GET'])
 def get_model_averages():
     try:
-        print("Endpoint '/api/get_model_averages' was hit")
+        print("Endpoint '/api/get_model_averages' was hit")  
         dataset = request.args.get('dataset', default='SQuAD', type=str)
         model_name = request.args.get('model', default='', type=str)
         print(f"Dataset received: {dataset}, Model received: {model_name}")
@@ -217,7 +220,7 @@ def get_model_averages():
 
         for result in results:
             # Print the result to see available attributes
-            print(vars(result))
+            print(vars(result))  
             model_name_extracted = result.experiment_id.split('_')[2]
             if 'TruthfulQA' in result.experiment_id:
                 # For TruthfulQA, use BLEU and ROUGE scores

@@ -13,7 +13,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 app.register_blueprint(api_blueprint, url_prefix='/api')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Phil2:12-16!@localhost/llm_evaluation'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Phil2:12-16@localhost/llm_evaluation'
 
 db.init_app(app)
 migrate = Migrate(app, db)

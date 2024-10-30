@@ -16,7 +16,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgresql://postgres:Phil2%3A12-16%21@db:5432/llm_evaluation
+      - DATABASE_URL=postgresql://postgres:Phil2:12-16@host.docker.internal:5432/llm_evaluation
     command: gunicorn -b 0.0.0.0:5000 app:app
 
   db:
@@ -25,7 +25,7 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Phil2:12-16!
+      POSTGRES_PASSWORD: Phil2:12-16
       POSTGRES_DB: llm_evaluation
     volumes:
       - postgres_data:/var/lib/postgresql/data
