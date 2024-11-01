@@ -1,47 +1,50 @@
+Here’s the updated README with a more detailed project structure and only the specified resources:
+
+---
+
 # LLM Performance Comparison Platform
 
 ## Introduction
 
-Welcome to the **LLM Performance Comparison Platform**! This project is designed as an internship challenge where you will build a web-based platform allowing users to compare the performance of different Large Language Models (LLMs). This includes both custom queries and standardized evaluation datasets. This project offers hands-on experience with web development, API integration, and AI model evaluation techniques.
+Welcome to the **LLM Performance Comparison Platform**! This project, built as an internship challenge, provides a web-based platform that enables users to compare the performance of various Large Language Models (LLMs) on both custom queries and standardized evaluation datasets. This project offers practical experience in web development, API integration, and AI model evaluation techniques.
 
 ## Objective
 
-The objective of this project is to create a platform where users can:
+The platform allows users to:
 
-- Input custom queries and send them to multiple LLM APIs.
-- View and compare responses from different models.
-- Evaluate model performance using standardized datasets and metrics.
-- Visualize and analyze the results.
+- Input custom queries for multiple LLMs and view responses side-by-side.
+- Select LLMs for querying and viewing responses.
+- Compare model performance using standardized datasets and metrics.
+- Visualize and analyze evaluation results.
 
 ## Core Features
 
 ### 1. Frontend Development
-The frontend of the platform includes:
-- A responsive web interface built with HTML, CSS, and JavaScript.
-- An input field for users to send custom queries to multiple LLMs.
-- A selection mechanism for choosing which LLMs to query.
-- A display area showing responses from each selected LLM.
-- A dashboard to view evaluation results and performance metrics.
+The frontend features a responsive web interface that includes:
+- **Query Input**: An input field for custom queries.
+- **Model Selection**: A selection mechanism for choosing LLMs to query.
+- **Response Display**: A section to display and compare responses from each selected LLM.
+- **Dashboard**: A performance dashboard showing evaluation results and metrics.
 
 ### 2. Backend Development
-The backend handles the API requests and evaluation logic:
-- Built with Flask (or Node.js with Express).
-- Handles API routes for querying LLMs and processing results.
-- Distributes queries to the selected LLM APIs and aggregates the results.
-- Supports evaluation datasets and computes performance metrics.
+The backend, built with Flask, manages API requests and evaluation logic:
+- **API Routing**: Routes for querying LLMs and processing results.
+- **Query Distribution**: Logic to distribute queries to selected LLM APIs and aggregate results.
+- **Evaluation Datasets**: Supports standardized datasets and computes performance metrics.
 
 ### 3. LLM API Integration
 The platform integrates with the following APIs:
 - OpenAI GPT API
 - Anthropic Claude API
-- Meta's LLaMA API (or alternative)
+- Mistral AI API
+- Google API (alternative)
 
-**Features:**
-- Secure management of API keys.
-- Error handling and rate limiting as per API specifications.
-  
+**Key Features**:
+- **API Key Management**: Secure storage of API keys.
+- **Error Handling**: Error management and rate-limiting for smooth operation.
+
 ### 4. Standardized Evaluation Integration
-The platform supports several standardized evaluation datasets:
+The platform supports evaluation using various datasets:
 - **GLUE (General Language Understanding Evaluation)**
 - **SuperGLUE**
 - **SQuAD**
@@ -50,27 +53,26 @@ The platform supports several standardized evaluation datasets:
 
 The evaluation pipeline:
 - Loads tasks from chosen datasets.
-- Sends queries to each integrated LLM.
+- Queries each integrated LLM.
 - Collects and stores responses.
-- Computes performance metrics as per dataset specifications.
+- Computes performance metrics per dataset specifications.
 
 ### 5. Results Display and Visualization
-The platform includes:
-- A comparison interface for side-by-side evaluation of LLM responses to custom queries.
-- A performance dashboard displaying evaluation results.
-- Visualizations (e.g., charts, graphs) comparing LLM performance across various tasks and metrics.
+The platform provides:
+- **Comparison Interface**: Side-by-side evaluation of LLM responses to custom queries.
+- **Performance Dashboard**: Visualization tools, including charts and graphs, for comparing LLM performance across various tasks and metrics.
 
 ## Setup and Installation
 
 ### Prerequisites
-- Node.js installed (for a Node.js-based frontend).
-- Python installed (for the Flask backend).
-- API keys for OpenAI GPT, Anthropic Claude, and LLaMA (or alternative).
+- **Node.js** for the frontend.
+- **Python** for the Flask backend.
+- **API Keys**: Obtain API keys for OpenAI GPT, Anthropic Claude, Mistral AI, and Google.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/lionggele/Chatbox_LLM_web.git
-cd Chatbox_LLM_web
+git clone https://github.com/lionggele/Chatbox_LLM-new.git
+cd Chatbox_LLM-new
 ```
 
 ### Install Dependencies
@@ -81,7 +83,7 @@ cd Chatbox_LLM_web
    cd src
    ```
 
-2. Install the necessary frontend dependencies:
+2. Install frontend dependencies:
    ```bash
    npm install
    ```
@@ -98,18 +100,19 @@ cd Chatbox_LLM_web
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. Install the required Python packages:
+3. Install Python packages:
    ```bash
    pip install -r requirements.txt
    ```
 
 ### API Key Setup
-Ensure that you have your API keys ready. Create a `.env` file in the root directory to securely store your API keys:
-```
-OPENAI_API_KEY=your_openai_api_key
-CLAUDE_API_KEY=your_claude_api_key
-LLAMA_API_KEY=your_llama_api_key
-```
+1. Create a `.env` file in the root directory to securely store API keys:
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   CLAUDE_API_KEY=your_claude_api_key
+   MISTRAL_API_KEY=your_mistral_api_key
+   GOOGLE_API_KEY=your_google_api_key
+   ```
 
 ### Running the Application
 
@@ -126,44 +129,46 @@ python app.py
 ```
 
 ### Access the Application
-Once both servers are running, access the web platform via:
+Access the platform at:
 ```
 http://localhost:3000
 ```
 
 ## Resources
 
-Below are helpful resources for datasets and API integrations:
-
-- **GLUE Benchmark**: [GLUE Benchmark](https://gluebenchmark.com/)
-- **SuperGLUE Benchmark**: [SuperGLUE](https://super.gluebenchmark.com/)
 - **SQuAD**: [SQuAD Explorer](https://rajpurkar.github.io/SQuAD-explorer/)
 - **TruthfulQA**: [TruthfulQA GitHub](https://github.com/sylinrl/TruthfulQA)
-- **MMLU**: [MMLU GitHub](https://github.com/hendrycks/test)
 - **OpenAI GPT API Documentation**: [OpenAI Docs](https://platform.openai.com/docs/)
-- **Anthropic Claude API Documentation**: Check Anthropic’s website for the latest.
-- **Meta's LLaMA API**: Check Meta's AI research page for the latest.
-
+- **Mistral AI API**: [Mistral AI Docs](https://docs.mistral.ai/api/)
+- **Google API Documentation**: [GoogleAPI Docs](https://ai.google.dev/gemini-api/docs/api-key)
 ## Project Structure
 
 ```plaintext
-Chatbox_LLM_web/
+Chatbox_LLM-new/
 │
-├── public/              # Public assets for the web application
-├── src/                 # Frontend source code
-│   ├── assets/          # Images and other assets
-│   ├── Data/           # Data fetching and API calls
-│   ├── Domain/         # Domain models and business logic
-│   ├── Presentation/    # Presentation layer
-│   ├── Routes/         # Routing components
-│   ├── App.js          # Main App component
-│   ├── index.js        # Entry point for React
-│   └── styles.css      # CSS for styling the app
+├── public/                      # Public assets (favicon, logo, manifest files)
 │
-├── server/              # Backend source code (if applicable)
-│   └── app.py          # Flask server file
+├── src/                         # Frontend source code
+│   ├── assets/                  # Images, icons, and static resources for UI
+│   ├── Data/                    # API calls and data-fetching logic
+│   ├── Domain/                  # Domain models and business logic
+│   ├── Presentation/            # Components for rendering the UI
+│   ├── Routes/                  # Page routing configurations and React Router setup
+│   ├── App.js                   # Main App component (root of the React app)
+│   ├── index.js                 # Entry point for React application rendering
+│   ├── styles.css               # Global CSS styles for the app
+│   └── config/                  # Configuration files (e.g., environment settings)
 │
-├── .env                 # Environment variables (not committed)
-├── package.json         # Project configuration and dependencies
-└── README.md            # Project documentation
+├── server/                      # Backend source code
+│   ├── app.py                   # Main Flask server application file
+│   ├── routes/                  # API route handlers for LLM queries and processing
+│   ├── utils/                   # Utility functions (e.g., data processing, API key management)
+│   ├── config.py                # Backend configuration settings and environment variables
+│   └── requirements.txt         # Python dependencies
+│
+├── .env                         # Environment variables (not committed)
+├── package.json                 # Project dependencies for the frontend
+├── README.md                    # Project documentation (this file)
+└── docker/                      # Docker configuration files (Dockerfile, docker-compose.yml for containerized setup)
 ```
+

@@ -1,72 +1,72 @@
 [
   {
-    "id": "572faf74b2c2fd1400568348",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Where were interviews held while the parliament was in its temporary building?",
-    "correct_answer": "the courtyard",
-    "llm_response": "The interviews were held in the **courtyard adjoining the Assembly Hall**, which is part of the School of Divinity of the University of Edinburgh. \n"
+    "id": "572658435951b619008f7029",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What is the CJEU's duty?",
+    "correct_answer": "\"ensure that in the interpretation and application of the Treaties the law is observed\"",
+    "llm_response": "The CJEU's duty, as stated in Article 19(3) of the Treaty on European Union, is to **\"ensure that in the interpretation and application of the Treaties the law is observed\"**. \n\nThis means the CJEU:\n\n* **Interprets EU law:** The CJEU clarifies the meaning and scope of EU treaties, regulations, directives, and other legal instruments.\n* **Ensures consistent application:** It makes sure that EU law is applied uniformly across all member states, preventing inconsistencies in interpretation and application.\n* **Protects the rule of law:** The CJEU acts as a guardian of the rule of law within the EU, upholding the principles of legality, equality, and proportionality"
   },
   {
-    "id": "5727502f708984140094dc0b",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Cost overruns with government projects have occurred when the contractor did what?",
-    "correct_answer": "identified change orders or project changes that increased costs",
-    "llm_response": "The passage states that cost overruns with government projects have occurred when the contractor **identified change orders or project changes that increased costs, which are not subject to competition from other firms**. \n\nHere's why this leads to cost overruns:\n\n* **Lack of Competition:** Once a contractor is awarded a government project, there's often no competitive bidding for subsequent changes. This means the contractor can potentially inflate the cost of these changes without facing pressure from other bidders.\n* **Opportunity for Abuse:**  The contractor has an incentive to propose changes that increase their profits, even if those changes are not strictly necessary or could be done more cost-effectively.\n* **Limited Oversight:**  Government oversight of project changes can be complex and may"
+    "id": "57286ec63acd2414000df9d4",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "Who developed the lithium-ion battery?",
+    "correct_answer": "John B. Goodenough",
+    "llm_response": "The context states that **John B. Goodenough** is the developer of the lithium-ion battery. \n"
   },
   {
-    "id": "5728e8212ca10214002daa70",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Why do some people purposely resist officers of the law?",
-    "correct_answer": "civil disobedience",
-    "llm_response": "There are several reasons why people might resist officers of the law, even when their actions are considered \"civil disobedience\":\n\n**1. Principled Resistance:**\n\n* **Disagreement with the Law:** Some individuals believe the law they are breaking is unjust or immoral, and they actively resist as a form of protest. They see their actions as a moral imperative, even if it means facing legal consequences.\n* **Challenging Authority:** Civil disobedience can be a way to challenge the authority of the state and force a dialogue about the legitimacy of the law. This resistance is often motivated by a belief in the power of nonviolent action to bring about social change.\n\n**2. Emotional and Psychological Factors:**\n\n* **Fear and Anxiety:** The situation"
+    "id": "5710e9f8a58dae1900cd6b30",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "There was a 16th century Huguenot settlement near what modern day Florida city?",
+    "correct_answer": "Jacksonville",
+    "llm_response": "The 16th century Huguenot settlement near the modern-day Florida city of **Jacksonville**. \n"
   },
   {
-    "id": "5737a25ac3c5551400e51f53",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "What are associated with normal forces?",
-    "correct_answer": "matrix diagonals of the tensor)",
-    "llm_response": "The passage you provided describes the stress tensor, a tool used in physics and engineering to represent the internal forces within a material.  Here's how normal forces relate to the stress tensor:\n\n**Normal Forces and the Stress Tensor:**\n\n* **Normal forces** are forces that act perpendicular to a surface.  Think of a book sitting on a table \u2013 the table exerts an upward normal force on the book.\n* **Stress tensor** is a mathematical representation of the forces acting on a material. It has components that represent both normal forces (acting perpendicular to a surface) and shear forces (acting parallel to a surface).\n* **Diagonal elements** of the stress tensor represent the **normal stresses**. These are directly related to the normal forces"
+    "id": "57379ed81c456719005744d5",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What can be used to model tension forces?",
+    "correct_answer": "ideal strings",
+    "llm_response": "The text you provided already gives the answer! \n\nHere's a breakdown of what can be used to model tension forces:\n\n* **Ideal Strings:** These are the primary tool. They are massless, frictionless, unbreakable, and unstretchable. This allows them to transmit force without any loss or change.\n* **Ideal Pulleys:** These are used to change the direction of the tension force. They are assumed to be frictionless and massless, so they don't affect the force transmission.\n\nBy combining these ideal elements, you can create models of various systems involving tension forces, like:\n\n* **Simple Atwood Machines:** Two masses connected by a string over a pulley.\n* **More Complex Pulleys"
   },
   {
-    "id": "572650325951b619008f6fab",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Who backed policies that have solutions that sound good but have poor prospects?",
-    "correct_answer": "congresses and presidents",
-    "llm_response": "The passage states that **congresses and presidents** have repeatedly backed policies that promise solutions that are politically expedient, but whose prospects are doubtful. \n\nThe passage specifically criticizes:\n\n* **Crisis-mentality thinking:**  This refers to the tendency to focus on immediate solutions without considering long-term consequences.\n* **Expensive quick fixes:** These are solutions that address the immediate problem but may not be sustainable or cost-effective in the long run.\n* **Single-shot solutions:** These are solutions that address one aspect of the problem but ignore other important factors.\n\nThe passage argues that these policies, while politically expedient, ignore market and technology realities and fail to provide stable rules that support research and innovation. \n\nTherefore, the"
+    "id": "5733a5f54776f41900660f46",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "Who was Fr\u00e9d\u00e9ric Chopin?",
+    "correct_answer": "Famous musicians",
+    "llm_response": "The context tells us that Fr\u00e9d\u00e9ric Chopin was a famous musician born in Poland. It also provides some additional details about his life:\n\n* **He was born in the village of \u017belazowa Wola, but moved to Warsaw with his family when he was seven months old.**\n* **He is mentioned alongside W\u0142adys\u0142aw Szpilman, another famous Polish musician.**\n\nThis information points to the fact that **Fr\u00e9d\u00e9ric Chopin was a renowned Polish composer and pianist, known for his beautiful and expressive music, particularly his nocturnes, mazurkas, and polonaises.** \n"
   },
   {
-    "id": "571cac5d5efbb31900334dd4",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Before the formation of which planet, did Sol lose oxygen 16?",
-    "correct_answer": "Earth",
-    "llm_response": "The passage states that the Sun has a higher proportion of oxygen-16 than Earth.  This implies that **oxygen-16 was depleted from the protoplanetary disk before the Earth formed**. \n\nTherefore, the answer to your question is: **Before the formation of the Earth.** \n"
+    "id": "57379a4b1c456719005744cf",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What causes Pauli repulsion?",
+    "correct_answer": "fermionic nature of electrons",
+    "llm_response": "You're absolutely right! The Pauli exclusion principle is the fundamental reason behind Pauli repulsion. Here's a breakdown of how it works:\n\n**The Pauli Exclusion Principle:**\n\n* **Electrons are fermions:** This means they are subject to the Pauli exclusion principle, which states that no two identical fermions can occupy the same quantum state simultaneously. In simpler terms, no two electrons can have the same set of quantum numbers (energy level, angular momentum, spin, etc.).\n* **Electron clouds:**  Atoms consist of a nucleus surrounded by a cloud of electrons. These electrons occupy specific energy levels and orbitals within the atom.\n\n**Pauli Repulsion in Action:**\n\n1. **Overlap:** When two atoms get very close together, their"
   },
   {
-    "id": "572943ab1d04691400779219",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "Who was the chairman of the House Committee on Energy and Commerce?",
-    "correct_answer": "Rep. Joe Barton",
-    "llm_response": "The chairman of the House Committee on Energy and Commerce on June 23, 2005, was **Rep. Joe Barton**. \n"
+    "id": "572742bd5951b619008f8786",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What generally dictates the construction materials used?",
+    "correct_answer": "Materials readily available in the area",
+    "llm_response": "The passage clearly states that **the availability of materials in the area generally dictates the construction materials used**. \n\nHere's a breakdown of why this is the case:\n\n* **Accessibility:**  Materials that are readily available locally are easier and cheaper to transport, making them a more practical choice.\n* **Cost:**  Importing materials from far away increases costs due to transportation and potentially higher import tariffs.\n* **Tradition:**  Local building practices often develop around readily available materials, creating a tradition of using specific materials.\n\nWhile other factors like regulations, cost of labor, and design preferences also play a role, the passage emphasizes the significant influence of material availability on construction choices. \n"
   },
   {
-    "id": "570d32e4fed7b91900d45d05",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "What government set standards do all schools have to meet?",
-    "correct_answer": "curriculum standards",
-    "llm_response": "The passage states that **all schools in Victoria must comply with government-set curriculum standards.** \n\nIt doesn't specify what those standards are, but it implies that they apply to both public and private schools, regardless of their funding source or religious affiliation. \n"
+    "id": "5733d4c8d058e614000b6356",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What was first battle in 1754?",
+    "correct_answer": "Battle of Jumonville Glen",
+    "llm_response": "The first battle of the Seven Years' War in North America was the **Battle of Jumonville Glen**, which took place on **May 28, 1754**. \n\nThis battle marked the beginning of the conflict between the British and French in North America, which would eventually become known as the French and Indian War.  It was a significant event that escalated tensions between the two colonial powers and set the stage for a larger conflict. \n"
   },
   {
-    "id": "5733f410d058e614000b6663",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "What was the goal of Braddock's expedition?",
-    "correct_answer": "dislodge the French",
-    "llm_response": "The goal of Braddock's expedition was to **dislodge the French from their forts and settlements in the Ohio Valley**. \n\nThe British believed that the French were encroaching on British territory in the Ohio Valley, and they aimed to:\n\n* **Secure control of the Ohio River:** This was a vital waterway for trade and westward expansion.\n* **Prevent French expansion:** The British wanted to stop the French from establishing a strong presence in the region and potentially threatening British colonies.\n* **Establish British dominance:**  The expedition was intended to demonstrate British military superiority and assert their claim to the territory. \n\nUltimately, Braddock's expedition failed to achieve its goals, ending in a disastrous defeat at the Battle of the Mononga"
+    "id": "57263677ec44d21400f3dc4c",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "What delivery message was used ",
+    "correct_answer": "by store and forward switching",
+    "llm_response": "The context describes the development of a **store and forward switching** method for delivering messages. This means:\n\n* **Messages are divided into blocks (later called packets).**\n* **Each block is individually routed through the network.**\n* **Nodes in the network store the blocks and forward them to the next node on the path.**\n\nSo, the delivery message used is **not a single, specific message**, but rather a **process of routing and forwarding individual blocks of a message**. \n\nHere's how it works:\n\n1. **Message is divided into blocks.**\n2. **Each block is given a header with destination address and other control information.**\n3. **Blocks are sent through the network individually.**\n4"
   },
   {
-    "id": "57296f293f37b319004783a7",
-    "experiment_id": "SQuAD_10_googlevertex_20241030_175257",
-    "question": "As of January 2016 how many digits does the largest known prime consist of?",
-    "correct_answer": "22,338,618",
-    "llm_response": "The context states that as of January 2016, the largest known prime number has **22,338,618 decimal digits**. \n"
+    "id": "571cde695efbb31900334e19",
+    "experiment_id": "SQuAD_10_googlevertex_20241101_093602",
+    "question": "Besides fats, fatty acids, and amino acids,what other organic compounds contain oxygen?",
+    "correct_answer": "proteins",
+    "llm_response": "Here are some other organic compounds containing oxygen, besides fats, fatty acids, and amino acids:\n\n**Carbohydrates:**\n\n* **Sugars:** Glucose, fructose, sucrose, lactose, etc. \n* **Starches:** Amylose, amylopectin\n* **Cellulose:** The primary component of plant cell walls\n\n**Other Biomolecules:**\n\n* **Nucleotides:**  ATP, ADP, AMP,  Guanosine triphosphate (GTP), and other nucleotides involved in energy transfer and signaling.\n* **Steroids:** Cholesterol, testosterone, estrogen\n* **Vitamins:** Vitamin C (ascorbic acid), Vitamin E (tocopherol), Vitamin K (phylloquinone)\n* **Hormones:**"
   }
 ]
