@@ -1,7 +1,3 @@
-Here’s the updated README with a more detailed project structure and only the specified resources:
-
----
-
 # LLM Performance Comparison Platform
 
 ## Introduction
@@ -109,7 +105,6 @@ cd Chatbox_LLM-new
 1. Create a `.env` file in the root directory to securely store API keys:
    ```
    OPENAI_API_KEY=your_openai_api_key
-   CLAUDE_API_KEY=your_claude_api_key
    MISTRAL_API_KEY=your_mistral_api_key
    GOOGLE_API_KEY=your_google_api_key
    ```
@@ -170,5 +165,5 @@ Chatbox_LLM-new/
 ├── package.json                 # Project dependencies for the frontend
 ├── README.md                    # Project documentation (this file)
 └── docker/                      # Docker configuration files (Dockerfile, docker-compose.yml for containerized setup)
-```
+
 
