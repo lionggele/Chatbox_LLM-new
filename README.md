@@ -22,6 +22,9 @@ The frontend features a responsive web interface that includes:
 - **Response Display**: A section to display and compare responses from each selected LLM.
 - **Dashboard**: A performance dashboard showing evaluation results and metrics.
 
+![Chatbox Interface](src/assets/llmchatbox.png)
+*The main chat interface allows users to select LLM models and input queries to compare responses side-by-side.*
+
 ### 2. Backend Development
 The backend, built with Flask, manages API requests and evaluation logic:
 - **API Routing**: Routes for querying LLMs and processing results.
@@ -58,6 +61,23 @@ The platform provides:
 - **Comparison Interface**: Side-by-side evaluation of LLM responses to custom queries.
 - **Performance Dashboard**: Visualization tools, including charts and graphs, for comparing LLM performance across various tasks and metrics.
 
+![Comparison View](src/assets/comparison2.png)
+*The comparison interface enables side-by-side viewing of LLM responses, helping users evaluate the quality and relevance of answers across different models.*
+
+![Performance Dashboard](src/assets/chart.png)
+*The performance dashboard visualizes key metrics like F1 Score, BLEU Score, and ROUGE Score, providing insights into model effectiveness across tasks.*
+
+## Example Evaluations and Leaderboard
+
+### Model Comparison Results
+The platform's evaluation interface allows users to filter by dataset, sample size, and specific experiment IDs to view detailed performance metrics.
+
+![Evaluation Results](src/assets/evalutaion_checking.png)
+*The evaluation results table displays metrics like BLEU and ROUGE scores for each sampled response, giving detailed insights into model accuracy and quality.*
+
+![Leaderboard](src/assets/leaderboard.png)
+*The leaderboard ranks models based on their average F1 and BLEU scores across chosen datasets, highlighting the best-performing LLM.*
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -78,7 +98,6 @@ cd Chatbox_LLM-new
    ```bash
    cd src
    ```
-
 2. Install frontend dependencies:
    ```bash
    npm install
@@ -89,13 +108,11 @@ cd Chatbox_LLM-new
    ```bash
    cd server
    ```
-
 2. Set up a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
-
 3. Install Python packages:
    ```bash
    pip install -r requirements.txt
@@ -103,7 +120,7 @@ cd Chatbox_LLM-new
 
 ### API Key Setup
 1. Create a `.env` file in the root directory to securely store API keys:
-   ```
+   ```plaintext
    OPENAI_API_KEY=your_openai_api_key
    MISTRAL_API_KEY=your_mistral_api_key
    GOOGLE_API_KEY=your_google_api_key
@@ -136,6 +153,7 @@ http://localhost:3000
 - **OpenAI GPT API Documentation**: [OpenAI Docs](https://platform.openai.com/docs/)
 - **Mistral AI API**: [Mistral AI Docs](https://docs.mistral.ai/api/)
 - **Google API Documentation**: [GoogleAPI Docs](https://ai.google.dev/gemini-api/docs/api-key)
+
 ## Project Structure
 
 ```plaintext
@@ -165,5 +183,5 @@ Chatbox_LLM-new/
 ├── package.json                 # Project dependencies for the frontend
 ├── README.md                    # Project documentation (this file)
 └── docker/                      # Docker configuration files (Dockerfile, docker-compose.yml for containerized setup)
-
+```
 
